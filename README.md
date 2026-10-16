@@ -1,5 +1,8 @@
 # acme-checkout
 
+A small, realistic shop checkout that serves as a sandbox for practicing
+debugging and code review against known regressions you can inject on demand.
+
 Checkout service and storefront for the Acme demo shop: an Express API and a
 Vite + React storefront, all in TypeScript. Payments go through a fake local
 gateway with a stripe-shaped API; nothing talks to the network and nothing in

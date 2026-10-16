@@ -1,5 +1,7 @@
 # acme-checkout
 
+A full-stack demo of an online checkout flow for the fictional Acme shop.
+
 Checkout service and storefront for the Acme demo shop: an Express API and a
 Vite + React storefront, all in TypeScript. Payments go through a fake local
 gateway with a stripe-shaped API; nothing talks to the network and nothing in
